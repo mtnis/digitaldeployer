@@ -1,6 +1,6 @@
 {
     "name": "DA Deployer",
-    "category":" "webmaster",
+    "category": "webmaster",
     "description": "This app is a plugin designed to aid in the deployment of the DDA service. ",
     "keywords" : [
         "webmaster"
