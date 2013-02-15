@@ -1,0 +1,55 @@
+{
+    "name": "DA Deployer",
+    "category":" "webmaster",
+    "description": "This app is a plugin designed to aid in the deployment of the DDA service. ",
+    "keywords" : [
+        "webmaster"
+        ],
+    "version": "0.0.1",
+    "contributors": [
+    {
+        "name" : "DDA Support",
+        "email" : "support@digitalarmored.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/digitalarmor/digitaldeployer.git"
+        },
+        "main" : "./public/javascripts/digitaldeployer.js",
+        "dependencies" : {
+        },
+        "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+		}],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        "config" : {
+            "assets" : {
+                "logos" : {
+                    "200px": "./public/images/digitalDeployer_logo-200.png",
+                    "132px": "./public/images/digitalDeployer_logo-132.png"
+                },
+                "detail_page" : [
+                	"./public/images/digitalDeployer_screenshot.png"
+                ]
+            },
+            "payment": {},
+            "details": {
+               "Category": "Webmaster Tools",
+               "Language": "English",
+               "Restrictions": "None"
+           },
+            "interface": [
+            {
+                "id": "message",
+                "name": "Enter Account Code",
+                "description": "The site code required by the DA service.",
+                "type": "string"
+            }
+            ]
+        }
+}
