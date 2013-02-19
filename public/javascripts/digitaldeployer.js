@@ -33,7 +33,7 @@ CloudFlare.define("digitalDeployer", ["digitalDeployer/config"], function(_confi
 		} else {  // Good Browsers
 			ss.appendChild(tt);
 		}
-		var hh = document.getElementsByTagName('head')[0];
+		var hh = document.getElementsByTagName('body')[0];
 		hh.appendChild(ss);
 	}
 	
